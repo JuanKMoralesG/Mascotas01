@@ -23,7 +23,7 @@ public class Perro {
     }
 
     public double calcularTamano(double peso, double altura){
-
+        return this.peso*this.altura;
     }
 
     public void ladrar(){
